@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "EventGen",
+    products: [
+        .executable(name: "EventGen", targets: ["EventGen"]),
+    ],
     dependencies: [
 
        .package(name: "swift-argument-parser",
