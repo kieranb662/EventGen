@@ -18,8 +18,8 @@ class StructGenerator {
     func makeStruct(_ name: String) -> String {
         """
     public struct \(name.pascalCase()) {
-        var name: String
-        var parameter: ParameterType = .none
+        public var name: String
+        public var parameter: ParameterType = .none
 
     }
     """
