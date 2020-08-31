@@ -101,7 +101,7 @@ class StructGenerator {
 
     func makeListHead(_ name: String) -> String {
         """
-        var \(name.camelCase(" ")): [\(csv.name)] {
+        static var \(name.camelCase(" ")): [\(csv.name)] {
                [
 
         """
